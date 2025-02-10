@@ -1,6 +1,15 @@
-# Outlook and OneDrive Uninstaller
+# Edge Complete Remover Tool
 
-A simple script to completely remove Microsoft Outlook and OneDrive from Windows.
+> [!NOTE]
+> All of our free software is designed to respect your privacy, while being as simple to use as possible. Our free software is licensed under the [BSD-3-Clause license](https://ravendevteam.org/files/BSD-3-Clause.txt). By using our software, you acknowledge and agree to the terms of the license.
+
+> [!NOTE]
+> Original by [NovaWeb](https://github.com/mre31), used with permission. Thank you!
+
+> [!IMPORTANT]
+> This is a component for other software, and is not intended to be ran as standalone software.
+
+A simple script to remove OneDrive and Outlook from Windows.
 
 ## Features
 
@@ -9,33 +18,27 @@ A simple script to completely remove Microsoft Outlook and OneDrive from Windows
 - Cleans up all shortcuts and registry entries
 - Removes taskbar pins and Task View button
 - Requires no user interaction
-- Runs silently with admin privileges
+
+## Requirements
+
+- Windows 11
+- Administrator privileges
+- PowerShell 5.1 or higher
+
+## Files
+- uninstall_oo.ps1
 
 ## Usage
 
-1. Download both files:
-   - `uninstall_outlook_and_onedrive.ps1`
-   - `run.bat`
+1. Download all files to a folder
 2. Keep both files in the same folder
 3. Run `run.bat` by double-clicking
 4. Allow admin privileges when prompted
 
-## What it does
+## Disclaimer
 
-- Terminates Outlook and OneDrive processes
-- Uninstalls Outlook and OneDrive applications
-- Removes all related folders and files
-- Cleans up Start Menu and Desktop shortcuts
-- Removes taskbar pins
-- Disables Task View button
-- Cleans registry entries
-- Restarts Windows Explorer
+This tool is provided as-is without any warranty. Use at your own risk. The authors are not responsible for any damage caused by the use of this tool. Microsoft Edge WebView2 should work but it might not. You have been warned.
 
-## Requirements
+## License
 
-- Windows 10/11
-- Administrator privileges
-
-## Note
-
-This script will completely remove Outlook and OneDrive. Make sure to backup any important data before running. 
+This project is licensed under the BSD-3-Clause license. By using our software, you acknowledge and agree to the terms of the license.
