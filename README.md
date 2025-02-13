@@ -1,20 +1,20 @@
-# OneDrive and Outlook Uninstaller
+# ~~OneDrive and~~ Outlook Uninstaller
 
 > [!NOTE]
 > All of our free software is designed to respect your privacy, while being as simple to use as possible. Our free software is licensed under the [BSD-3-Clause license](https://ravendevteam.org/files/BSD-3-Clause.txt). By using our software, you acknowledge and agree to the terms of the license.
 
 > [!NOTE]
-> Original by [NovaWeb](https://github.com/mre31), used with permission. Thank you!
+> Original by [NovaWeb](https://github.com/mre31), used with permission to Raven.
+> And forked from the Talon project run by [Raven](https://github.com/ravendevteam/talon). This project can be removed with the express permission of the Raven dev team. Thank you for your understanding. :3
 
 > [!IMPORTANT]
 > This is a component for other software, and is not intended to be ran as standalone software.
 
-A simple script to remove OneDrive and Outlook from Windows.
+A simple script to remove Outlook from Windows.
 
 ## Features
 
 - Removes both Classic and New Outlook
-- Removes OneDrive completely
 - Cleans up all shortcuts and registry entries
 - Removes taskbar pins and Task View button
 - Requires no user interaction
@@ -26,13 +26,12 @@ A simple script to remove OneDrive and Outlook from Windows.
 - PowerShell 5.1 or higher
 
 ## Files
-- uninstall_oo.ps1
+- uninstall_ol.ps1
 
 ## Usage
 
-1. Download all files to a folder
-2. Keep both files in the same folder
-3. Run `run.bat` by double-clicking
+1. Download the file to a folder
+3. Run `uninstall_ol.ps1` by double-clicking
 4. Allow admin privileges when prompted
 
 ## Disclaimer
