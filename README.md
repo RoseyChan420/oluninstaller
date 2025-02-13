@@ -1,14 +1,10 @@
 # ~~OneDrive and~~ Outlook Uninstaller
 
 > [!NOTE]
-> All of our free software is designed to respect your privacy, while being as simple to use as possible. Our free software is licensed under the [BSD-3-Clause license](https://ravendevteam.org/files/BSD-3-Clause.txt). By using our software, you acknowledge and agree to the terms of the license.
+> Original by [NovaWeb](https://github.com/mre31), used with permission to [Raven](https://ravendevteam.org).
 
 > [!NOTE]
-> Original by [NovaWeb](https://github.com/mre31), used with permission to Raven.
-> And forked from the Talon project run by [Raven](https://github.com/ravendevteam/talon). This project can be removed with the express permission of the Raven dev team. Thank you for your understanding. :3
-
-> [!IMPORTANT]
-> This is a component for other software, and is not intended to be ran as standalone software.
+> This is an edited component of the [Talon](https://github.com/ravendevteam/talon) software and is not originally intended to be run as standalone software.
 
 A simple script to remove Outlook from Windows.
 
@@ -16,7 +12,6 @@ A simple script to remove Outlook from Windows.
 
 - Removes both Classic and New Outlook
 - Cleans up all shortcuts and registry entries
-- Removes taskbar pins and Task View button
 - Requires no user interaction
 
 ## Requirements
