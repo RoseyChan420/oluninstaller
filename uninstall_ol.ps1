@@ -50,26 +50,6 @@ try {
     )
     $shortcutPaths | ForEach-Object { Remove-Item $_ -Force }
 
-    # Taskbar cleanup
-    Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" -Name "ShowTaskViewButton" -Value 0 -Type DWord -Force
-
-    $registryPaths = @(
-        "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Taskband",
-        "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\TaskbarMRU",
-        "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\TaskBar",
-        "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced"
-    )
-    foreach ($path in $registryPaths) {
-        if (Test-Path $path) {
-            @("Favorites", "FavoritesResolve", "FavoritesChanges", "FavoritesRemovedChanges", "TaskbarWinXP", "PinnedItems") | 
-            ForEach-Object { Remove-ItemProperty -Path $path -Name $_ -ErrorAction SilentlyContinue }
-        }
-    }
-
-    Remove-Item "$env:LOCALAPPDATA\Microsoft\Windows\Shell\LayoutModification.xml" -Force
-    Remove-Item "$env:LOCALAPPDATA\Microsoft\Windows\Explorer\iconcache*" -Force
-    Remove-Item "$env:LOCALAPPDATA\Microsoft\Windows\Explorer\thumbcache*" -Force
-
     # Restart Explorer
     Get-Process explorer | Stop-Process -Force
     Start-Sleep -Seconds 2
