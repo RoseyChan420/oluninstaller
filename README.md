@@ -35,4 +35,4 @@ This tool is provided as-is without any warranty. Use at your own risk. The auth
 
 ## License
 
-This project is licensed under the BSD-3-Clause license. By using our software, you acknowledge and agree to the terms of the license.
+This project is licensed under the BSD-3-Clause license. By using Raven's software, you acknowledge and agree to the terms of the license.
